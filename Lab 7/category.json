@@ -1,0 +1,16 @@
+{"category":
+ [
+    {"cname":"Key Chains","name":"Personalised drive safe","size":"10cm","colour":"black","quantity":"10000000","price":"100"},
+    {"cname":"Key Chains","name":"Personalised photo","size":"10cm","colour":"none","quantity":"30","price":"150"},
+    {"cname":"Plushies","name":"Pig","size":"50cm","colour":"pink","quantity":"30","price":"600"},
+    {"cname":"Plushies","name":"Pig","size":"100cm","colour":"purple","quantity":"10","price":"1000"},
+    {"cname":"Plushies","name":"Trutle","size":"40cm","colour":"green","quantity":"50","price":"500"},
+    {"cname":"Plushies","name":"Trutle","size":"80cm","colour":"green","quantity":"60","price":"1000"},
+    {"cname":"Plushies","name":"Bear","size":"100cm","colour":"red","quantity":"10","price":"1900"},
+    {"cname":"Personalised","name":"Moon Lamp","size":"100cm","colour":"multicolour","quantity":"10","price":"2000"},
+    {"cname":"Personalised","name":"Moon Lamp","size":"150cm","colour":"multicolour","quantity":"30","price":"2500"},
+    {"cname":"Personalised","name":"Coffee Cup","size":"100cm","colour":"black","quantity":"10","price":"500"},
+    {"cname":"Personalised","name":"Coffee Cup","size":"100cm","colour":"white","quantity":"10","price":"500"}
+
+ ]
+}

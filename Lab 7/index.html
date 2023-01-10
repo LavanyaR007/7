@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="category">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>Category parts</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="angular.min.js"></script>
+	<script src="cart.js"></script>
+</head>
+<body ng-controller="categoryctrl">
+<div style="text-align: center;font-family: cursive;font-size: 40px">Products of different Category</div>
+<div class="col-4"></div>
+</div>
+<div class="row form-group">
+<div class="col-5"></div>
+<div class="col-5"></div>
+</div>
+<div class="row">
+<table class="table table-striped">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col"><div >
+	ROWS :<br><input type="number" ng-model="rowlimit" >
+
+</div></th>
+      <th scope="col">Name of the product<br>
+      	<input type="text" ng-model="search.name">
+      </th>
+      <th scope="col">Category Name<br>
+        <input type="text" ng-model="search.cname">
+        </th>
+      <th scope="col">Size<br>
+      	<input type="text" ng-model="search.size">
+      </th>
+      <th scope="col">Colour<br>
+      	<input type="text" ng-model="search.colour">
+      </th>
+      <th scope="col">Quantity<br>
+      	<input type="text" ng-model="search.quantity">
+      </th>
+      <th scope="col">Price<br>
+      	<input type="text" ng-model="search.price">
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+</div>
+    <tr ng-repeat="item in names|limitTo:rowlimit | filter:search|orderBy:'name'" >
+    		<td></td>
+			<td>{{item.name|uppercase}}</td>
+			<td>{{item.cname}}</td>
+      <td>{{item.size}}</td>
+      <td>{{item.colour}}</td>
+			<td>{{item.quantity|number}}</td>
+			<td> {{item.price|currency : '₹ '}}</td>
+		</tr>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+
+
